@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-03T08:33:39Z" name="Suite" finished-at="2022-02-03T08:34:36Z" duration-ms="56406">
+    <groups>
+    </groups>
+    <test started-at="2022-02-03T08:33:39Z" name="Chrome" finished-at="2022-02-03T08:33:53Z" duration-ms="13514">
+      <class name="TestClass.ValidateTimetrackSUb">
+        <test-method is-config="true" signature="CreateObject()[pri:0, instance:TestClass.ValidateTimetrackSUb@6c284af]" started-at="2022-02-03T08:33:42Z" name="CreateObject" finished-at="2022-02-03T08:33:42Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateObject -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:TestClass.ValidateTimetrackSUb@6c284af]" started-at="2022-02-03T08:33:42Z" name="Login" finished-at="2022-02-03T08:33:43Z" duration-ms="1092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="EnterTT()[pri:0, instance:TestClass.ValidateTimetrackSUb@6c284af]" started-at="2022-02-03T08:33:43Z" name="EnterTT" finished-at="2022-02-03T08:33:46Z" duration-ms="3174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterTT -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.ValidateTimetrackSUb@6c284af]" started-at="2022-02-03T08:33:46Z" name="Logout" finished-at="2022-02-03T08:33:47Z" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:TestClass.ValidateTimetrackSUb@6c284af]" started-at="2022-02-03T08:33:47Z" name="Login" finished-at="2022-02-03T08:33:47Z" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="ViewTT()[pri:0, instance:TestClass.ValidateTimetrackSUb@6c284af]" started-at="2022-02-03T08:33:47Z" name="ViewTT" finished-at="2022-02-03T08:33:48Z" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTT -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.ValidateTimetrackSUb@6c284af]" started-at="2022-02-03T08:33:48Z" name="Logout" finished-at="2022-02-03T08:33:48Z" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="CloseObjet()[pri:0, instance:TestClass.ValidateTimetrackSUb@6c284af]" started-at="2022-02-03T08:33:48Z" name="CloseObjet" finished-at="2022-02-03T08:33:48Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseObjet -->
+      </class> <!-- TestClass.ValidateTimetrackSUb -->
+      <class name="TestClass.validateHeader">
+        <test-method is-config="true" signature="CreateObject()[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:42Z" name="CreateObject" finished-at="2022-02-03T08:33:42Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateObject -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:42Z" name="loginToUserAccount" finished-at="2022-02-03T08:33:43Z" duration-ms="1021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="VerifyReports()[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:43Z" name="VerifyReports" finished-at="2022-02-03T08:33:47Z" duration-ms="3695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyReports -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:47Z" name="Logout" finished-at="2022-02-03T08:33:47Z" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:47Z" name="loginToUserAccount" finished-at="2022-02-03T08:33:48Z" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="VerifyTasks()[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:48Z" name="VerifyTasks" finished-at="2022-02-03T08:33:48Z" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTasks -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:48Z" name="Logout" finished-at="2022-02-03T08:33:49Z" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:49Z" name="loginToUserAccount" finished-at="2022-02-03T08:33:49Z" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="VerifyTimetrack()[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:49Z" name="VerifyTimetrack" finished-at="2022-02-03T08:33:49Z" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTimetrack -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:49Z" name="Logout" finished-at="2022-02-03T08:33:49Z" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:49Z" name="loginToUserAccount" finished-at="2022-02-03T08:33:49Z" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="VerifyUsers()[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:49Z" name="VerifyUsers" finished-at="2022-02-03T08:33:51Z" duration-ms="1354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUsers -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:51Z" name="Logout" finished-at="2022-02-03T08:33:51Z" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:51Z" name="loginToUserAccount" finished-at="2022-02-03T08:33:51Z" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="VerifyWorkSchedule()[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:51Z" name="VerifyWorkSchedule" finished-at="2022-02-03T08:33:52Z" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWorkSchedule -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:52Z" name="Logout" finished-at="2022-02-03T08:33:52Z" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="CloseObject()[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:52Z" name="CloseObject" finished-at="2022-02-03T08:33:52Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseObject -->
+      </class> <!-- TestClass.validateHeader -->
+      <class name="TestClass.ValidateLogin">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestClass.ValidateLogin@7e057f43]" started-at="2022-02-03T08:33:39Z" name="launchBrowser" finished-at="2022-02-03T08:33:41Z" duration-ms="1269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestClass.ValidateTimetrackSUb@6c284af]" started-at="2022-02-03T08:33:41Z" name="launchBrowser" finished-at="2022-02-03T08:33:41Z" duration-ms="697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:41Z" name="launchBrowser" finished-at="2022-02-03T08:33:42Z" duration-ms="837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:TestClass.ValidateLogin@7e057f43]" started-at="2022-02-03T08:33:42Z" name="createObject" finished-at="2022-02-03T08:33:42Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="OpenUrl()[pri:0, instance:TestClass.ValidateLogin@7e057f43]" started-at="2022-02-03T08:33:42Z" name="OpenUrl" finished-at="2022-02-03T08:33:43Z" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenUrl -->
+        <test-method signature="Login()[pri:0, instance:TestClass.ValidateLogin@7e057f43]" started-at="2022-02-03T08:33:43Z" name="Login" finished-at="2022-02-03T08:33:43Z" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.ValidateLogin@7e057f43]" started-at="2022-02-03T08:33:43Z" name="Logout" finished-at="2022-02-03T08:33:47Z" duration-ms="3964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestClass.ValidateLogin@7e057f43]" started-at="2022-02-03T08:33:47Z" name="CloseBrowser" finished-at="2022-02-03T08:33:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="CloseObject()[pri:0, instance:TestClass.ValidateLogin@7e057f43]" started-at="2022-02-03T08:33:52Z" name="CloseObject" finished-at="2022-02-03T08:33:53Z" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseObject -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestClass.ValidateTimetrackSUb@6c284af]" started-at="2022-02-03T08:33:53Z" name="CloseBrowser" finished-at="2022-02-03T08:33:53Z" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestClass.validateHeader@6e9a5ed8]" started-at="2022-02-03T08:33:53Z" name="CloseBrowser" finished-at="2022-02-03T08:33:53Z" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestClass.ValidateLogin -->
+    </test> <!-- Chrome -->
+    <test started-at="2022-02-03T08:33:53Z" name="Opera" finished-at="2022-02-03T08:34:14Z" duration-ms="20946">
+      <class name="TestClass.ValidateTimetrackSUb">
+        <test-method is-config="true" signature="CreateObject()[pri:0, instance:TestClass.ValidateTimetrackSUb@533bda92]" started-at="2022-02-03T08:34:00Z" name="CreateObject" finished-at="2022-02-03T08:34:00Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateObject -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:TestClass.ValidateTimetrackSUb@533bda92]" started-at="2022-02-03T08:34:00Z" name="Login" finished-at="2022-02-03T08:34:02Z" duration-ms="2167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="EnterTT()[pri:0, instance:TestClass.ValidateTimetrackSUb@533bda92]" started-at="2022-02-03T08:34:02Z" name="EnterTT" finished-at="2022-02-03T08:34:06Z" duration-ms="3895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterTT -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.ValidateTimetrackSUb@533bda92]" started-at="2022-02-03T08:34:06Z" name="Logout" finished-at="2022-02-03T08:34:07Z" duration-ms="788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:TestClass.ValidateTimetrackSUb@533bda92]" started-at="2022-02-03T08:34:07Z" name="Login" finished-at="2022-02-03T08:34:08Z" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="ViewTT()[pri:0, instance:TestClass.ValidateTimetrackSUb@533bda92]" started-at="2022-02-03T08:34:08Z" name="ViewTT" finished-at="2022-02-03T08:34:09Z" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTT -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.ValidateTimetrackSUb@533bda92]" started-at="2022-02-03T08:34:09Z" name="Logout" finished-at="2022-02-03T08:34:09Z" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="CloseObjet()[pri:0, instance:TestClass.ValidateTimetrackSUb@533bda92]" started-at="2022-02-03T08:34:09Z" name="CloseObjet" finished-at="2022-02-03T08:34:09Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseObjet -->
+      </class> <!-- TestClass.ValidateTimetrackSUb -->
+      <class name="TestClass.validateHeader">
+        <test-method is-config="true" signature="CreateObject()[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:34:00Z" name="CreateObject" finished-at="2022-02-03T08:34:00Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateObject -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:34:00Z" name="loginToUserAccount" finished-at="2022-02-03T08:34:03Z" duration-ms="2231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="VerifyReports()[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:34:03Z" name="VerifyReports" finished-at="2022-02-03T08:34:08Z" duration-ms="5070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyReports -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:34:08Z" name="Logout" finished-at="2022-02-03T08:34:08Z" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:34:08Z" name="loginToUserAccount" finished-at="2022-02-03T08:34:09Z" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="VerifyTasks()[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:34:09Z" name="VerifyTasks" finished-at="2022-02-03T08:34:09Z" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTasks -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:34:09Z" name="Logout" finished-at="2022-02-03T08:34:10Z" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:34:10Z" name="loginToUserAccount" finished-at="2022-02-03T08:34:10Z" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="VerifyTimetrack()[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:34:10Z" name="VerifyTimetrack" finished-at="2022-02-03T08:34:10Z" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTimetrack -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:34:10Z" name="Logout" finished-at="2022-02-03T08:34:10Z" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:34:10Z" name="loginToUserAccount" finished-at="2022-02-03T08:34:11Z" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="VerifyUsers()[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:34:11Z" name="VerifyUsers" finished-at="2022-02-03T08:34:11Z" duration-ms="805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUsers -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:34:11Z" name="Logout" finished-at="2022-02-03T08:34:12Z" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:34:12Z" name="loginToUserAccount" finished-at="2022-02-03T08:34:12Z" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="VerifyWorkSchedule()[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:34:12Z" name="VerifyWorkSchedule" finished-at="2022-02-03T08:34:12Z" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWorkSchedule -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:34:12Z" name="Logout" finished-at="2022-02-03T08:34:13Z" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="CloseObject()[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:34:13Z" name="CloseObject" finished-at="2022-02-03T08:34:13Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseObject -->
+      </class> <!-- TestClass.validateHeader -->
+      <class name="TestClass.ValidateLogin">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestClass.ValidateLogin@7fd50002]" started-at="2022-02-03T08:33:53Z" name="launchBrowser" finished-at="2022-02-03T08:33:56Z" duration-ms="2945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestClass.ValidateTimetrackSUb@533bda92]" started-at="2022-02-03T08:33:56Z" name="launchBrowser" finished-at="2022-02-03T08:33:58Z" duration-ms="2178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:33:58Z" name="launchBrowser" finished-at="2022-02-03T08:34:00Z" duration-ms="2388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:TestClass.ValidateLogin@7fd50002]" started-at="2022-02-03T08:34:00Z" name="createObject" finished-at="2022-02-03T08:34:00Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="OpenUrl()[pri:0, instance:TestClass.ValidateLogin@7fd50002]" started-at="2022-02-03T08:34:00Z" name="OpenUrl" finished-at="2022-02-03T08:34:02Z" duration-ms="1940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenUrl -->
+        <test-method signature="Login()[pri:0, instance:TestClass.ValidateLogin@7fd50002]" started-at="2022-02-03T08:34:02Z" name="Login" finished-at="2022-02-03T08:34:03Z" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.ValidateLogin@7fd50002]" started-at="2022-02-03T08:34:03Z" name="Logout" finished-at="2022-02-03T08:34:07Z" duration-ms="4449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestClass.ValidateLogin@7fd50002]" started-at="2022-02-03T08:34:07Z" name="CloseBrowser" finished-at="2022-02-03T08:34:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="CloseObject()[pri:0, instance:TestClass.ValidateLogin@7fd50002]" started-at="2022-02-03T08:34:13Z" name="CloseObject" finished-at="2022-02-03T08:34:13Z" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseObject -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestClass.ValidateTimetrackSUb@533bda92]" started-at="2022-02-03T08:34:13Z" name="CloseBrowser" finished-at="2022-02-03T08:34:13Z" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestClass.validateHeader@3f4faf53]" started-at="2022-02-03T08:34:13Z" name="CloseBrowser" finished-at="2022-02-03T08:34:14Z" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestClass.ValidateLogin -->
+    </test> <!-- Opera -->
+    <test started-at="2022-02-03T08:34:14Z" name="Firefox" finished-at="2022-02-03T08:34:36Z" duration-ms="21893">
+      <class name="TestClass.ValidateTimetrackSUb">
+        <test-method is-config="true" signature="CreateObject()[pri:0, instance:TestClass.ValidateTimetrackSUb@4d0d9fe7]" started-at="2022-02-03T08:34:22Z" name="CreateObject" finished-at="2022-02-03T08:34:22Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateObject -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:TestClass.ValidateTimetrackSUb@4d0d9fe7]" started-at="2022-02-03T08:34:22Z" name="Login" finished-at="2022-02-03T08:34:27Z" duration-ms="5084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="EnterTT()[pri:0, instance:TestClass.ValidateTimetrackSUb@4d0d9fe7]" started-at="2022-02-03T08:34:27Z" name="EnterTT" finished-at="2022-02-03T08:34:27Z" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterTT -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.ValidateTimetrackSUb@4d0d9fe7]" started-at="2022-02-03T08:34:27Z" name="Logout" finished-at="2022-02-03T08:34:28Z" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:TestClass.ValidateTimetrackSUb@4d0d9fe7]" started-at="2022-02-03T08:34:28Z" name="Login" finished-at="2022-02-03T08:34:29Z" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="ViewTT()[pri:0, instance:TestClass.ValidateTimetrackSUb@4d0d9fe7]" started-at="2022-02-03T08:34:29Z" name="ViewTT" finished-at="2022-02-03T08:34:29Z" duration-ms="845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewTT -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.ValidateTimetrackSUb@4d0d9fe7]" started-at="2022-02-03T08:34:29Z" name="Logout" finished-at="2022-02-03T08:34:30Z" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="CloseObjet()[pri:0, instance:TestClass.ValidateTimetrackSUb@4d0d9fe7]" started-at="2022-02-03T08:34:30Z" name="CloseObjet" finished-at="2022-02-03T08:34:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseObjet -->
+      </class> <!-- TestClass.ValidateTimetrackSUb -->
+      <class name="TestClass.validateHeader">
+        <test-method is-config="true" signature="CreateObject()[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:22Z" name="CreateObject" finished-at="2022-02-03T08:34:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateObject -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:22Z" name="loginToUserAccount" finished-at="2022-02-03T08:34:26Z" duration-ms="4317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="VerifyReports()[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:26Z" name="VerifyReports" finished-at="2022-02-03T08:34:27Z" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyReports -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:27Z" name="Logout" finished-at="2022-02-03T08:34:27Z" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:27Z" name="loginToUserAccount" finished-at="2022-02-03T08:34:28Z" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="VerifyTasks()[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:28Z" name="VerifyTasks" finished-at="2022-02-03T08:34:29Z" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTasks -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:29Z" name="Logout" finished-at="2022-02-03T08:34:29Z" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:29Z" name="loginToUserAccount" finished-at="2022-02-03T08:34:30Z" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="VerifyTimetrack()[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:30Z" name="VerifyTimetrack" finished-at="2022-02-03T08:34:30Z" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTimetrack -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:30Z" name="Logout" finished-at="2022-02-03T08:34:30Z" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:30Z" name="loginToUserAccount" finished-at="2022-02-03T08:34:31Z" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="VerifyUsers()[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:31Z" name="VerifyUsers" finished-at="2022-02-03T08:34:32Z" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUsers -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:32Z" name="Logout" finished-at="2022-02-03T08:34:32Z" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:32Z" name="loginToUserAccount" finished-at="2022-02-03T08:34:32Z" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="VerifyWorkSchedule()[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:32Z" name="VerifyWorkSchedule" finished-at="2022-02-03T08:34:33Z" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWorkSchedule -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:33Z" name="Logout" finished-at="2022-02-03T08:34:33Z" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="CloseObject()[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:33Z" name="CloseObject" finished-at="2022-02-03T08:34:33Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseObject -->
+      </class> <!-- TestClass.validateHeader -->
+      <class name="TestClass.ValidateLogin">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestClass.ValidateLogin@4a8355dd]" started-at="2022-02-03T08:34:14Z" name="launchBrowser" finished-at="2022-02-03T08:34:17Z" duration-ms="2783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestClass.ValidateTimetrackSUb@4d0d9fe7]" started-at="2022-02-03T08:34:17Z" name="launchBrowser" finished-at="2022-02-03T08:34:19Z" duration-ms="2739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:19Z" name="launchBrowser" finished-at="2022-02-03T08:34:22Z" duration-ms="2769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:TestClass.ValidateLogin@4a8355dd]" started-at="2022-02-03T08:34:22Z" name="createObject" finished-at="2022-02-03T08:34:22Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="OpenUrl()[pri:0, instance:TestClass.ValidateLogin@4a8355dd]" started-at="2022-02-03T08:34:22Z" name="OpenUrl" finished-at="2022-02-03T08:34:23Z" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenUrl -->
+        <test-method signature="Login()[pri:0, instance:TestClass.ValidateLogin@4a8355dd]" started-at="2022-02-03T08:34:23Z" name="Login" finished-at="2022-02-03T08:34:26Z" duration-ms="3311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestClass.ValidateLogin@4a8355dd]" started-at="2022-02-03T08:34:26Z" name="Logout" finished-at="2022-02-03T08:34:27Z" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestClass.ValidateLogin@4a8355dd]" started-at="2022-02-03T08:34:27Z" name="CloseBrowser" finished-at="2022-02-03T08:34:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="CloseObject()[pri:0, instance:TestClass.ValidateLogin@4a8355dd]" started-at="2022-02-03T08:34:33Z" name="CloseObject" finished-at="2022-02-03T08:34:34Z" duration-ms="942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseObject -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestClass.ValidateTimetrackSUb@4d0d9fe7]" started-at="2022-02-03T08:34:34Z" name="CloseBrowser" finished-at="2022-02-03T08:34:35Z" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestClass.validateHeader@4c163e3]" started-at="2022-02-03T08:34:35Z" name="CloseBrowser" finished-at="2022-02-03T08:34:36Z" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestClass.ValidateLogin -->
+    </test> <!-- Firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
