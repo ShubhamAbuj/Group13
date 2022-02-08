@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-05T08:23:49Z" name="Suite" finished-at="2022-02-05T08:24:55Z" duration-ms="66599">
+    <groups>
+    </groups>
+    <test started-at="2022-02-05T08:23:49Z" name="OperaTest" finished-at="2022-02-05T08:24:21Z" duration-ms="32772">
+      <class name="testClass_pacakge.TestClass">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testClass_pacakge.TestClass@233fe9b6]" started-at="2022-02-05T08:23:49Z" name="launchBrowser" finished-at="2022-02-05T08:23:51Z" duration-ms="2437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:testClass_pacakge.TestClass@233fe9b6]" started-at="2022-02-05T08:23:51Z" name="createObject" finished-at="2022-02-05T08:23:51Z" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:testClass_pacakge.TestClass@233fe9b6]" started-at="2022-02-05T08:23:51Z" name="loginToUserAccount" finished-at="2022-02-05T08:23:53Z" duration-ms="1334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="verifydashboard()[pri:0, instance:testClass_pacakge.TestClass@233fe9b6]" started-at="2022-02-05T08:23:53Z" name="verifydashboard" finished-at="2022-02-05T08:23:54Z" duration-ms="1276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydashboard -->
+        <test-method is-config="true" signature="logoutAccount(org.testng.ITestResult)[pri:0, instance:testClass_pacakge.TestClass@233fe9b6]" started-at="2022-02-05T08:23:54Z" name="logoutAccount" finished-at="2022-02-05T08:24:07Z" duration-ms="13199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifydashboard status=SUCCESS method=TestClass.verifydashboard()[pri:0, instance:testClass_pacakge.TestClass@233fe9b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAccount -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:testClass_pacakge.TestClass@233fe9b6]" started-at="2022-02-05T08:24:07Z" name="loginToUserAccount" finished-at="2022-02-05T08:24:08Z" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="verifyorder()[pri:0, instance:testClass_pacakge.TestClass@233fe9b6]" started-at="2022-02-05T08:24:08Z" name="verifyorder" finished-at="2022-02-05T08:24:09Z" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyorder -->
+        <test-method is-config="true" signature="logoutAccount(org.testng.ITestResult)[pri:0, instance:testClass_pacakge.TestClass@233fe9b6]" started-at="2022-02-05T08:24:09Z" name="logoutAccount" finished-at="2022-02-05T08:24:21Z" duration-ms="12446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyorder status=SUCCESS method=TestClass.verifyorder()[pri:0, instance:testClass_pacakge.TestClass@233fe9b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAccount -->
+        <test-method is-config="true" signature="clearObjects()[pri:0, instance:testClass_pacakge.TestClass@233fe9b6]" started-at="2022-02-05T08:24:21Z" name="clearObjects" finished-at="2022-02-05T08:24:21Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjects -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:testClass_pacakge.TestClass@233fe9b6]" started-at="2022-02-05T08:24:21Z" name="closedBrowser" finished-at="2022-02-05T08:24:21Z" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- testClass_pacakge.TestClass -->
+    </test> <!-- OperaTest -->
+    <test started-at="2022-02-05T08:24:22Z" name="FirefoxTest" finished-at="2022-02-05T08:24:55Z" duration-ms="33796">
+      <class name="testClass_pacakge.TestClass">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testClass_pacakge.TestClass@6dbb137d]" started-at="2022-02-05T08:24:22Z" name="launchBrowser" finished-at="2022-02-05T08:24:24Z" duration-ms="2761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:testClass_pacakge.TestClass@6dbb137d]" started-at="2022-02-05T08:24:24Z" name="createObject" finished-at="2022-02-05T08:24:24Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:testClass_pacakge.TestClass@6dbb137d]" started-at="2022-02-05T08:24:24Z" name="loginToUserAccount" finished-at="2022-02-05T08:24:27Z" duration-ms="2330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="verifydashboard()[pri:0, instance:testClass_pacakge.TestClass@6dbb137d]" started-at="2022-02-05T08:24:27Z" name="verifydashboard" finished-at="2022-02-05T08:24:27Z" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydashboard -->
+        <test-method is-config="true" signature="logoutAccount(org.testng.ITestResult)[pri:0, instance:testClass_pacakge.TestClass@6dbb137d]" started-at="2022-02-05T08:24:27Z" name="logoutAccount" finished-at="2022-02-05T08:24:40Z" duration-ms="12868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifydashboard status=SUCCESS method=TestClass.verifydashboard()[pri:0, instance:testClass_pacakge.TestClass@6dbb137d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAccount -->
+        <test-method is-config="true" signature="loginToUserAccount()[pri:0, instance:testClass_pacakge.TestClass@6dbb137d]" started-at="2022-02-05T08:24:40Z" name="loginToUserAccount" finished-at="2022-02-05T08:24:41Z" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method signature="verifyorder()[pri:0, instance:testClass_pacakge.TestClass@6dbb137d]" started-at="2022-02-05T08:24:41Z" name="verifyorder" finished-at="2022-02-05T08:24:42Z" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyorder -->
+        <test-method is-config="true" signature="logoutAccount(org.testng.ITestResult)[pri:0, instance:testClass_pacakge.TestClass@6dbb137d]" started-at="2022-02-05T08:24:42Z" name="logoutAccount" finished-at="2022-02-05T08:24:54Z" duration-ms="12827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyorder status=SUCCESS method=TestClass.verifyorder()[pri:0, instance:testClass_pacakge.TestClass@6dbb137d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAccount -->
+        <test-method is-config="true" signature="clearObjects()[pri:0, instance:testClass_pacakge.TestClass@6dbb137d]" started-at="2022-02-05T08:24:54Z" name="clearObjects" finished-at="2022-02-05T08:24:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjects -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:testClass_pacakge.TestClass@6dbb137d]" started-at="2022-02-05T08:24:54Z" name="closedBrowser" finished-at="2022-02-05T08:24:55Z" duration-ms="855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- testClass_pacakge.TestClass -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
